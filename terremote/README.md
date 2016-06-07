@@ -1,1 +1,1 @@
-The files here are the files used to configure TerRemote.  The relevant files are the pics folder, with referenced images, and the data file, which is just JSON.
+The files here are the files used to configure TerRemote.  The relevant files are the pics folder, with referenced images, and the data file, which is just JSON.  The files should be zipped up, and the archive named "export.ter".  You must simply import this in TerRemote to apply the config.
