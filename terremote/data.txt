@@ -1,0 +1,630 @@
+{
+  "version": 2,
+  "layouts": [
+    {
+      "name": "XBMC",
+      "position": -1,
+      "server": "-default",
+      "icon_path": "file:pictures\/XBMC.png",
+      "orientation": 1,
+      "use_in_navigation": true,
+      "hide_in_list": false,
+      "background": {
+        "picture_path": "file:pictures\/black.png"
+      },
+      "widgets": [
+        {
+		  "identifier": "UpArrow",
+		  "design_name": "blue_rect",
+          "posx": 1600,
+		  "posy": 200,
+		  "height": 100,
+		  "width": 180,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "U",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "RightArrow",
+		  "design_name": "blue_rect",
+          "posx": 1800,
+		  "posy": 320,
+		  "height": 180,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "R",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "LeftArrow",
+		  "design_name": "blue_rect",
+          "posx": 1480,
+		  "posy": 320,
+		  "height": 180,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "L",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "DownArrow",
+		  "design_name": "blue_rect",
+          "posx": 1600,
+		  "posy": 520,
+		  "height": 100,
+		  "width": 180,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "D",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "CenterButton",
+		  "design_name": "blue_circ",
+          "posx": 1610,
+		  "posy": 330,
+		  "height": 160,
+		  "width": 160,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "O",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control1,1",
+		  "design_name": "blue_rect",
+          "posx": 1480,
+		  "posy": 700,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "1",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control1,2",
+		  "design_name": "blue_rect",
+          "posx": 1640,
+		  "posy": 700,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "2",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control1,3",
+		  "design_name": "blue_rect",
+          "posx": 1800,
+		  "posy": 700,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "3",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control2,1",
+		  "design_name": "blue_rect",
+          "posx": 1480,
+		  "posy": 860,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "1",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control2,2",
+		  "design_name": "blue_rect",
+          "posx": 1640,
+		  "posy": 860,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "2",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control2,3",
+		  "design_name": "blue_rect",
+          "posx": 1800,
+		  "posy": 860,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "3",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "VolumeUp",
+		  "design_name": "blue_rect",
+          "posx": 20,
+		  "posy": 20,
+		  "height": 360,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "^",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "VolumeDown",
+		  "design_name": "blue_rect",
+          "posx": 20,
+		  "posy": 440,
+		  "height": 360,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "V",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "VolumeMute",
+		  "design_name": "blue_rect",
+          "posx": 20,
+		  "posy": 1080,
+		  "height": 100,
+		  "width": 100,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "V",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "events": [
+        "{\"type\":0,\"event_string\":\"192.168.0.1\",\"use_regex\":false}"
+      ],
+      "actions": [],
+      "name": "none\n",
+      "enabled": true
+    },
+    {
+      "events": [
+        "{\"type\":0,\"event_string\":\"Set.Volume\",\"use_regex\":false}"
+      ],
+      "actions": [
+        {
+          "widget_identifier": "volume",
+          "command_type": 0,
+          "prop": {
+            "key": "value",
+            "to": "${payload.0}"
+          },
+          "permanent": false,
+          "type": 2,
+          "event_string": "${payload.0}"
+        }
+      ],
+      "name": "setvolume",
+      "enabled": true
+    }
+  ],
+  "server": [],
+  "designs": [
+    {
+      "name": "dark_gray_rect",
+	  "type": 0,
+	  "background": {
+        "shape": {
+          "corner_radius": 15,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "stroke_width": 3,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color_color": "#777777",
+          "type": 0
+        }
+      },
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 15,
+          "stroke_color": "#aa1111",
+          "gap_size": 0,
+          "stroke_width": 3,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#bb1111",
+          "gradient_end_color": "#000000",
+          "gradient_angle": 90,
+          "type": 0
+        }
+      },
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 15,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "stroke_width": 3,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#777777",
+          "gradient_end_color": "#000000",
+          "gradient_angle": 90,
+          "type": 0
+        }
+      }
+    },
+	{
+      "name": "blue_rect",
+	  "type": 0,
+	  "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#0086b3",
+          "type": 0
+        }
+      },
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#004d66",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#004d66",
+          "type": 0
+        }
+      },
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "stroke_width": 0,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#777777",
+          "gradient_end_color": "#000000",
+          "gradient_angle": 90,
+          "type": 0
+        }
+      }
+    },
+	{
+      "name": "blue_circ",
+	  "type": 0,
+	  "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#0086b3",
+          "type": 1
+        }
+      },
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#004d66",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#004d66",
+          "type": 1
+        }
+      },
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "stroke_width": 0,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#777777",
+          "gradient_end_color": "#000000",
+          "gradient_angle": 90,
+          "type": 1
+        }
+      }
+    },
+    {
+      "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#999999",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#88000000",
+          "type": 0
+        }
+      },
+      "name": "translucent black 4",
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#ff0000",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#bb1111",
+          "type": 0
+        }
+      },
+      "type": 0,
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#333333",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#80000000",
+          "type": 0
+        }
+      }
+    },
+    {
+      "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#333333",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#00000000",
+          "type": 0
+        }
+      },
+      "name": "BlankFlash",
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#00000000",
+          "gap_size": 0,
+          "stroke_width": 0,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#00ffffff",
+          "gradient_end_color": "#22ffffff",
+          "gradient_angle": 0,
+          "type": 0
+        }
+      },
+      "type": 0,
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#888888",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#02FFFFFF",
+          "type": 0
+        }
+      }
+    },
+    {
+      "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#Ffffffff",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "gradient",
+          "gradient_start_color": "#88555555",
+          "gradient_end_color": "black",
+          "gradient_angle": 90,
+          "type": 1
+        }
+      },
+      "name": "CircleIt 2",
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#ff0000",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#bb1111",
+          "type": 1
+        }
+      },
+      "type": 0,
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_color": "#888888",
+          "gap_size": 0,
+          "stroke_width": 2,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#555555",
+          "type": 0
+        }
+      }
+    }
+  ],
+  "device": {
+    "display_width": 1080,
+    "display_height": 1920
+  }
+}
