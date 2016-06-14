@@ -5,10 +5,10 @@ forked from Kabal/eventghost-epson-tw700
 
 eg.RegisterPlugin(
     name = "EpsonSerial",
-    author = "Tom Wilson",
-    version = "0.1.0",
+    author = "Nick Card",
+    version = "0.0.0",
     kind = "external",
-    guid = "{f6cfb453-416b-4276-92ac-c58ffe98972b}",
+    guid = "{73aeb32f-7efa-4ca1-a5cf-f1e5de0601e2}",
     url = "",
     description = (''),
     canMultiLoad = True,
