@@ -40,6 +40,7 @@ eg.RegisterPlugin(
     author = "Nick Card",
     version = "0.0",
     kind = "external",
+    guid = "{e7d89740-b1ad-4900-967c-b6509a3ebf3d}",
     description = "Control Denon A/V Amps/Receivers via Telnet",
     help = help,
     canMultiLoad = True,
