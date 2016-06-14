@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "device": {
+    "display_width": <width in pixels (vertical orientation)>,
+    "display_height": <height in pixels (vertical orientation)>
+  },
+  "server": [],
+  "layouts": [
+    {
+      "name": <string.  layout name>,
+      "position": <int.  ?? -1 in all examples I've seen>,
+      "server": <string.  which EventGhost Server? "-default" is the default server>,
+      "icon_path": <string.  the icon.  See "JSON Notes" in Wiki for explanation of this field>,
+      "orientation": <int.  0 for portrait, 1 for landscape>,
+      "use_in_navigation": <boolean.  true if you can swipe to it, false if not>,
+      "hide_in_list": <boolean.  true if hidden in left menu, false if visible>,
+      "background": {
+        "picture_path": <string.  the background picture.  See "JSON Notes" in Wiki for explanation of this field>,
+      },
+      "widgets": [
+        {
+          "identifier": <string.  The internal name of the widget, can be blank>,
+          "type": <int. 0 for button>,
+          "design_name": <string.  Name of design>,
+          "posx": <int. Distance from left side in pixels>,
+          "posy": <int. Distance from top side in pixels>,
+          "height": <int. height of widget in pixels>,
+          "width": <int. width of widget in pixels>,
+          "zindex": <int.  the z-index of the widget, default 1>,
+          "icon_path": {
+           "path": <string. the icon on the widget.  See "JSON Notes" in Wiki for explanation of this field>
+          },
+          "icon_position": <int.  The position of the icon on the widget.  ?? what number is what>,
+          "icon_height": <int.  pixel height of icon>,
+          "icon_width": <int.  pixel width of icon>,
+          "icon_padding": <int. The padding between icon and text, default 0>,
+          "text": <string.  Text on the widget>,
+          "text_size": <int.  Size of text>,
+          "textcolor": <string (hex).  Color of text>,
+          "enabled": <boolean.  true button works, false button doesn't work>,
+          "vibrate_on_click": <boolean.  true for vibrate, false for no vibrate (doesn't matter on Nexus 7)>,
+          "click_event": [], #for example events, see "JSON Notes"
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": []
+        },
+        {
+          "identifier": <string.  The internal name of the widget, can be blank>,
+          "type": <int. 1 for widget>,
+          "design_name": <string.  Name of design>,
+          "posx": <int. Distance from left side in pixels>,
+          "posy": <int. Distance from top side in pixels>,
+          "height": <int. height of widget in pixels>,
+          "width": <int. width of widget in pixels>,
+          "zindex": <int.  the z-index of the widget, default 1>,
+          "icon_path": {
+           "path": <string. the icon on the widget.  See "JSON Notes" in Wiki for explanation of this field>
+          },
+          "icon_position": <int.  The position of the icon on the widget.  ?? what number is what>,
+          "icon_height": <int.  pixel height of icon>,
+          "icon_width": <int.  pixel width of icon>,
+          "icon_padding": <int. The padding between icon and text, default 0>,
+          "text": <string.  Text on the widget>,
+          "text_size": <int.  Size of text>,
+          "textcolor": <string (hex).  Color of text>,
+          "enabled": <boolean.  true button works, false button doesn't work>,
+          "vibrate_on_click": <boolean.  true for vibrate, false for no vibrate (doesn't matter on Nexus 7)>,
+          "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": []
+        }
+      ],
+  ],
+  "designs": [],
+  "macros": []
+}
