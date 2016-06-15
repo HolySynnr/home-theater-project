@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventGhost Version="1722" Guid="{A4AFFEAF-C0B0-41F8-B5D9-1A86E2D7A919}" Time="1465970739.68">
+    <Autostart Name="Autostart" Expanded="True">
+        <Plugin Identifier="Task" Guid="{D1748551-C605-4423-B392-FB77E6842437}" File="Task">
+            gAIpLg==
+        </Plugin>
+        <Plugin Identifier="Process" Guid="{82BADF9F-D809-4EBC-A540-CCBF7563F8DF}" File="ProcessWatcher">
+            gAIpLg==
+        </Plugin>
+        <Plugin Identifier="RemoteEventMapper" Guid="{FF85940E-9E93-453C-903B-736FCE0863FF}" File="RemoteEventMapper">
+            gAJYBgAAAFJlbW90ZXEAXXEBXXECKFUETnVtMHEDVQROdW0xcQRVBE51bTJxBVUETnVtM3EGVQROdW00cQdVBE51bTVxCFUETnVtNnEJVQROdW03cQpVBE51bThxC1UETnVtOXEMVQZFc2NhcGVxDVUFRW50ZXJxDlUFUG93ZXJxD1UFU3RhcnRxEFUETXV0ZXERVQdEZXRhaWxzcRJVCFZvbHVtZVVwcRNVClZvbHVtZURvd25xFFUJQ2hhbm5lbFVwcRVVC0NoYW5uZWxEb3ducRZVB0ZvcndhcmRxF1UGUmV3aW5kcRhVBFBsYXlxGVUGUmVjb3JkcRpVBVBhdXNlcRtVBFN0b3BxHFUEU2tpcHEdVQZSZXBsYXlxHlUFUG91bmRxH1UEU3RhcnEgVQJVcHEhVQREb3ducSJVBExlZnRxI1UFUmlnaHRxJFUCT2txJVUEQmFja3EmVQdEVkRNZW51cSdVBkxpdmVUVnEoVQVHdWlkZXEpVQZBc3BlY3RxKlUCVFZxK1UFTXVzaWNxLFULUmVjb3JkZWRfVFZxLVUIUGljdHVyZXNxLlUGVmlkZW9zcS9VBUF1ZGlvcTBVCFN1YnRpdGxlcTFVBVJhZGlvcTJVCFRlbGV0ZXh0cTNVA1JlZHE0VQVHcmVlbnE1VQZZZWxsb3dxNlUEQmx1ZXE3ZYdxOC4=
+        </Plugin>
+        <Plugin Identifier="Keyboard" Guid="{59CBD10F-C1D8-4ADB-999B-9B76BA360F1F}" File="Keyboard">
+            gAKIhXEALg==
+        </Plugin>
+        <Plugin Identifier="TestPatterns" Guid="{17BC05D0-C600-4244-ABB1-02C1DA6229A0}" File="TestPatterns">
+            gAIpLg==
+        </Plugin>
+        <Plugin Identifier="OnkyoSerial" Guid="{E9EA99CC-40A7-40CC-94D9-01C9F6D25170}" File="Onkyo">
+            gAJLAIVxAC4=
+        </Plugin>
+        <Plugin Identifier="XBMC2" Guid="{8C8B850C-773F-4583-AAD9-A568262B7933}" File="XBMCRepeat">
+            gAJ9cQAoVQlCcm9hZGNhc3RxAX1xAihVBmVuYWJsZXEDiVUEcG9ydHEETVYgdVULRXZlbnRTZXJ2ZXJxBX1xBihoA4hoBE0xJnVVDGxvZ1Jhd0V2ZW50c3EHiVUHSlNPTlJQQ3EIfXEJKGgDiWgETYIjdVUEWEJNQ3EKfXELKFUIdXNlcm5hbWVxDFUAcQ1VAmlwcQ5VCTEyNy4wLjAuMXEPVQhwYXNzd29yZHEQaA1oBEtQdXWJhnERLg==
+        </Plugin>
+        <Plugin Identifier="XbmceventbroadcastListener" Guid="{9872BD49-2022-4F1B-B362-85F1ED203B7E}" File="XBMCEventReceiver">
+            gAIoWAoAAABYQk1DLUV2ZW50cQBYCwAAADE5Mi4xNjguMS4xcQFNkB9YCQAAADIyNC4wLjAuMnECTVYgiVgHAAAAPGI+PC9iPnEDdHEELg==
+        </Plugin>
+        <Plugin Identifier="Serial" Guid="{D565171F-1703-4212-972C-B824B55329CB}" File="Serial">
+            gAIoSwBNgCVLA0sASwBLAIlYAgAAAFxycQBYBgAAAFNlcmlhbHEBSwB0cQIu
+        </Plugin>
+        <Plugin Identifier="PingPlugin" Guid="Ping" File="Ping">
+            gAJYAwAAAD0zMnEAhXEBLg==
+        </Plugin>
+        <Plugin Identifier="Weather" Guid="{E0ED124C-F85C-497B-8FFF-6A2B745F9076}" File="Weather">
+            gAIpLg==
+        </Plugin>
+        <Plugin Identifier="NetworkReceiver" Guid="{8F35AE6D-AF12-4A94-AA91-4B63F0CBBE1C}" File="NetworkReceiver">
+            gAJNAARYAAAAAHEAWAMAAABUQ1BxAYdxAi4=
+        </Plugin>
+        <Plugin Identifier="NetworkSender" Guid="{B4F0DAFE-2E0B-47F3-A155-ED72C7A4E270}" File="NetworkSender">
+            gAJYCQAAADEyNy4wLjAuMXEATQAEWAAAAABxAYdxAi4=
+        </Plugin>
+    </Autostart>
+    <Folder Name="Macros">
+        <Folder Name="Switch Exclusives">
+            <Macro Name="Enable XBMC">
+                <Action>
+                    EventGhost.EnableExclusive(XmlIdLink(21))
+                </Action>
+            </Macro>
+            <Macro Name="Enable Chrome">
+                <Action>
+                    EventGhost.EnableExclusive(XmlIdLink(22))
+                </Action>
+            </Macro>
+            <Macro Name="Enable Steam">
+                <Action>
+                    EventGhost.EnableExclusive(XmlIdLink(23))
+                </Action>
+            </Macro>
+            <Macro Name="Enable ROMs">
+                <Action>
+                    EventGhost.EnableExclusive(XmlIdLink(24))
+                </Action>
+            </Macro>
+            <Macro Name="Enable Projector">
+                <Action>
+                    EventGhost.EnableExclusive(XmlIdLink(38))
+                </Action>
+            </Macro>
+        </Folder>
+    </Folder>
+    <Folder Name="Exclusives">
+        <Folder Name="XBMC" id="21" Enabled="False" />
+        <Folder Name="Chrome (Netflix)" id="22" Enabled="False" />
+        <Folder Name="Steam" id="23" Enabled="False" />
+        <Folder Name="ROMs" id="24" Enabled="False" />
+        <Folder Name="Projector" id="38" />
+    </Folder>
+    <Folder Name="Universal Controls" Expanded="True">
+        <Folder Name="Volume" />
+        <Folder Name="Admin Settings" />
+        <Folder Name="Power" Expanded="True">
+            <Macro Name="All On">
+                <Action>
+                    EventGhost.NewJumpIf(XmlIdLink(42), 2, True)
+                </Action>
+            </Macro>
+            <Macro Name="Wake Projector" id="42" Expanded="True">
+                <Action>
+                    System.WakeOnLan(u'  -  -  -  -  -  ')
+                </Action>
+            </Macro>
+        </Folder>
+        <Folder Name="Inputs" />
+    </Folder>
+</EventGhost>
