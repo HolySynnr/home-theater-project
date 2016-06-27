@@ -15,7 +15,7 @@
       "widgets": [
         {
 		  "identifier": "UpArrow",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1600,
 		  "posy": 200,
 		  "height": 100,
@@ -38,7 +38,7 @@
         },
         {
 		  "identifier": "RightArrow",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1800,
 		  "posy": 320,
 		  "height": 180,
@@ -61,7 +61,7 @@
         },
         {
 		  "identifier": "LeftArrow",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1480,
 		  "posy": 320,
 		  "height": 180,
@@ -84,7 +84,7 @@
         },
         {
 		  "identifier": "DownArrow",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1600,
 		  "posy": 520,
 		  "height": 100,
@@ -107,7 +107,7 @@
         },
         {
 		  "identifier": "CenterButton",
-		  "design_name": "blue_circ",
+		  "design_name": "std_circ",
           "posx": 1610,
 		  "posy": 330,
 		  "height": 160,
@@ -129,8 +129,54 @@
           "type": 0
         },
         {
+		  "identifier": "Exit",
+		  "design_name": "accent_rect",
+          "posx": 820,
+		  "posy": 20,
+		  "height": 80,
+		  "width": 80,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "X",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Exit2",
+		  "design_name": "accent_circ",
+          "posx": 1795,
+		  "posy": -125,
+		  "height": 250,
+		  "width": 250,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "X",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
 		  "identifier": "Control1,1",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1480,
 		  "posy": 700,
 		  "height": 100,
@@ -153,7 +199,7 @@
         },
         {
 		  "identifier": "Control1,2",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1640,
 		  "posy": 700,
 		  "height": 100,
@@ -176,7 +222,7 @@
         },
         {
 		  "identifier": "Control1,3",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1800,
 		  "posy": 700,
 		  "height": 100,
@@ -199,7 +245,7 @@
         },
         {
 		  "identifier": "Control2,1",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1480,
 		  "posy": 860,
 		  "height": 100,
@@ -222,7 +268,7 @@
         },
         {
 		  "identifier": "Control2,2",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1640,
 		  "posy": 860,
 		  "height": 100,
@@ -245,7 +291,7 @@
         },
         {
 		  "identifier": "Control2,3",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 1800,
 		  "posy": 860,
 		  "height": 100,
@@ -255,7 +301,30 @@
           "icon_height": 80,
           "icon_width": 80,
           "textcolor": "#ffffff",
-		  "text": "3",
+		  "text": "2,3",
+          "text_size": 12,
+		  "click_event": [],
+          "on_longclick": [],
+          "on_press": [],
+          "on_release": [],
+          "enabled": true,
+		  "vibrate_on_click": true,
+		  "zindex": 1,
+          "type": 0
+        },
+        {
+		  "identifier": "Control3",
+		  "design_name": "std_rect",
+          "posx": 1480,
+		  "posy": 1080,
+		  "height": 100,
+		  "width": 420,
+          "icon_position": 1,
+          "icon_padding": 0,
+          "icon_height": 80,
+          "icon_width": 80,
+          "textcolor": "#ffffff",
+		  "text": "I/O",
           "text_size": 12,
 		  "click_event": [],
           "on_longclick": [],
@@ -268,7 +337,7 @@
         },
         {
 		  "identifier": "VolumeUp",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 20,
 		  "posy": 20,
 		  "height": 360,
@@ -291,7 +360,7 @@
         },
         {
 		  "identifier": "VolumeDown",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 20,
 		  "posy": 440,
 		  "height": 360,
@@ -314,7 +383,7 @@
         },
         {
 		  "identifier": "VolumeMute",
-		  "design_name": "blue_rect",
+		  "design_name": "std_rect",
           "posx": 20,
 		  "posy": 1080,
 		  "height": 100,
@@ -415,7 +484,7 @@
       }
     },
 	{
-      "name": "blue_rect",
+      "name": "std_rect",
 	  "type": 0,
 	  "background": {
         "shape": {
@@ -444,20 +513,58 @@
       "background_inactive": {
         "shape": {
           "corner_radius": 10,
-          "stroke_color": "#555555",
-          "gap_size": 0,
           "stroke_width": 0,
+          "stroke_color": "#004d66",
+          "gap_size": 0,
           "dash_size": 0,
-          "fill_style": "gradient",
-          "gradient_start_color": "#777777",
-          "gradient_end_color": "#000000",
-          "gradient_angle": 90,
+          "fill_style": "solid",
+          "solid_color": "#004d66",
           "type": 0
         }
       }
     },
 	{
-      "name": "blue_circ",
+      "name": "accent_rect",
+	  "type": 0,
+	  "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#555555",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#b32d00",
+          "type": 0
+        }
+      },
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#661900",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#661900",
+          "type": 0
+        }
+      },
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#661900",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#661900",
+          "type": 0
+        }
+      }
+    },
+	{
+      "name": "std_circ",
 	  "type": 0,
 	  "background": {
         "shape": {
@@ -486,14 +593,52 @@
       "background_inactive": {
         "shape": {
           "corner_radius": 10,
-          "stroke_color": "#555555",
-          "gap_size": 0,
           "stroke_width": 0,
+          "stroke_color": "#004d66",
+          "gap_size": 0,
           "dash_size": 0,
-          "fill_style": "gradient",
-          "gradient_start_color": "#777777",
-          "gradient_end_color": "#000000",
-          "gradient_angle": 90,
+          "fill_style": "solid",
+          "solid_color": "#004d66",
+          "type": 1
+        }
+      }
+	},
+	{
+      "name": "accent_circ",
+	  "type": 0,
+	  "background": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#b32d00",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#b32d00",
+          "type": 1
+        }
+      },
+      "background_pressed": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#661900",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#661900",
+          "type": 1
+        }
+      },
+      "background_inactive": {
+        "shape": {
+          "corner_radius": 10,
+          "stroke_width": 0,
+          "stroke_color": "#661900",
+          "gap_size": 0,
+          "dash_size": 0,
+          "fill_style": "solid",
+          "solid_color": "#661900",
           "type": 1
         }
       }
